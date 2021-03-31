@@ -1,11 +1,9 @@
 # : comments
 
-# only ignore the ipynb_checkpoints file in the current directory, not subdir/ipynb_checkpoints
-/.ipynb_checkpoints
+.*
+!/.gitignore
 
 /bin
-
 /lib
-
 
 pyvenv.cfg
